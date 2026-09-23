@@ -2,13 +2,14 @@
 
 # Boi na Brasa Burguer
 
-### Presença digital, identidade e experiência responsiva para uma hamburgueria local.
+### Site institucional responsivo para uma hamburgueria artesanal em Piracaia/SP
 
-[![Status](https://img.shields.io/badge/status-online-22c55e?style=for-the-badge)](https://boinabrasaburguer.com.br/)
-[![Responsive](https://img.shields.io/badge/layout-responsivo-E10600?style=for-the-badge)](#)
-[![Cloudflare](https://img.shields.io/badge/deploy-Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://boinabrasaburguer.com.br/)
+[![Site](https://img.shields.io/badge/Site-Online-22C55E?style=for-the-badge)](https://boinabrasaburguer.com.br/)
+[![React](https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=E10600)](#)
+[![Responsive](https://img.shields.io/badge/Layout-Responsivo-E10600?style=for-the-badge)](#)
+[![Cloudflare](https://img.shields.io/badge/Deploy-Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.cloudflare.com/)
 
-**[Acessar projeto online](https://boinabrasaburguer.com.br/)**
+**[Acessar o projeto online](https://boinabrasaburguer.com.br/)**
 
 </div>
 
@@ -16,107 +17,122 @@
 
 ## Sobre o projeto
 
-O **Boi na Brasa Burguer** é um projeto web desenvolvido para fortalecer a presença digital da hamburgueria e proporcionar uma experiência mais clara, moderna e acessível aos clientes.
+O **Boi na Brasa Burguer** é um projeto web desenvolvido para fortalecer a presença digital da hamburgueria, apresentar sua identidade e facilitar o acesso dos clientes aos produtos, cardápio e principais canais de contato.
 
-A proposta foi criar uma página responsiva capaz de apresentar a identidade do estabelecimento, seus produtos e principais informações comerciais de maneira organizada e visualmente consistente.
+A interface foi construída com foco em **responsividade, navegação simples, identidade visual e experiência mobile**, considerando o uso predominante de smartphones por clientes de negócios locais.
 
-O projeto foi desenvolvido considerando principalmente:
-
-- experiência em dispositivos móveis;
-- facilidade de navegação;
-- apresentação clara dos produtos;
-- identidade visual da marca;
-- acesso rápido às informações do estabelecimento;
-- presença digital profissional;
-- desempenho e simplicidade de uso.
+<p align="center">
+  <img src="media/og-boi-na-brasa.webp" alt="Boi na Brasa Burguer" width="100%">
+</p>
 
 ---
 
-## Objetivo
+## Objetivos
 
-O projeto surgiu da necessidade de oferecer à **Boi na Brasa Burguer** uma presença própria na web, reduzindo a dependência exclusiva de redes sociais e plataformas de terceiros.
-
-A solução concentra informações importantes do negócio em um ambiente próprio e acessível diretamente pelo navegador.
-
-Além da apresentação visual da marca, o projeto foi pensado para facilitar o caminho entre o interesse do visitante e o contato com o estabelecimento.
-
----
-
-## Principais funcionalidades
-
-### Interface responsiva
-
-Layout desenvolvido para funcionar adequadamente em diferentes tamanhos de tela, incluindo:
-
-- smartphones;
-- tablets;
-- notebooks;
-- desktops.
-
-### Apresentação dos produtos
-
-Organização visual dos produtos da hamburgueria com foco em:
-
-- leitura rápida;
-- hierarquia das informações;
-- valorização das imagens;
-- descrição dos itens;
-- navegação simples.
-
-### Identidade visual
-
-A interface foi construída buscando preservar e reforçar a identidade da **Boi na Brasa Burguer**, mantendo consistência entre:
-
-- cores;
-- imagens;
-- tipografia;
-- elementos gráficos;
-- comunicação da marca.
-
-### Informações comerciais
-
-O site centraliza informações relevantes para quem deseja conhecer ou entrar em contato com o estabelecimento.
-
-### Experiência mobile
-
-Uma atenção especial foi dada à utilização pelo celular, considerando que grande parte dos acessos a negócios locais acontece através de dispositivos móveis.
+- Criar uma presença digital própria para o estabelecimento.
+- Apresentar a marca e os produtos de forma clara e visual.
+- Facilitar o acesso ao cardápio e aos canais comerciais.
+- Garantir boa experiência em celulares, tablets e desktops.
+- Aplicar boas práticas de SEO técnico e compartilhamento social.
+- Publicar o projeto em domínio próprio com HTTPS.
 
 ---
 
-## Projeto online
+## Principais recursos
 
-O projeto está publicado e pode ser acessado através do domínio oficial:
-
-### https://boinabrasaburguer.com.br/
-
-O deploy e a distribuição do site são realizados através da infraestrutura da **Cloudflare**.
-
----
-
-## Desenvolvimento
-
-O desenvolvimento envolveu diferentes etapas, incluindo:
-
-1. análise da identidade do estabelecimento;
-2. organização do conteúdo;
-3. definição da estrutura da página;
-4. desenvolvimento da interface;
-5. adaptação para dispositivos móveis;
-6. revisão das informações e produtos;
-7. configuração do domínio;
-8. configuração de DNS;
-9. publicação em produção;
-10. testes após o deployment.
+- Layout responsivo.
+- Hero visual com identidade da marca.
+- Apresentação dos produtos e diferenciais do estabelecimento.
+- Integração com cardápio online e canais externos.
+- Metadados Open Graph e Twitter Card.
+- Dados estruturados com Schema.org para negócio local/restaurante.
+- Sitemap e `robots.txt`.
+- Assets otimizados em WebP.
+- Domínio personalizado e publicação em produção.
 
 ---
 
-## Responsividade
+## Tecnologias e conceitos aplicados
 
-A interface foi planejada seguindo uma abordagem responsiva, permitindo que o conteúdo se adapte às diferentes resoluções sem comprometer a navegação ou a apresentação dos produtos.
+- **React**
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Responsive Web Design**
+- **SEO técnico**
+- **Schema.org / JSON-LD**
+- **Open Graph**
+- **Cloudflare**
+- **DNS e HTTPS**
+- **Git / GitHub**
+
+---
+
+## Estrutura desta versão
 
 ```text
-Desktop
-   ↓
-Tablet
-   ↓
-Mobile
+Boi-Na-Brasa-Burguer/
+├── assets/          # JavaScript e CSS do build
+├── brand/           # Identidade visual e logos
+├── media/           # Imagens e vídeo utilizados no site
+├── favicon.svg
+├── index.html
+├── robots.txt
+├── sitemap.xml
+└── README.md
+```
+
+> Este repositório contém a versão de produção publicada do projeto, preparada para entrega e deploy estático.
+
+---
+
+## SEO e presença digital
+
+O projeto inclui elementos voltados à indexação e apresentação correta em mecanismos de busca e redes sociais, como:
+
+- `title` e meta description;
+- URL canônica;
+- Open Graph;
+- Twitter Card;
+- `sitemap.xml`;
+- `robots.txt`;
+- dados estruturados em JSON-LD;
+- informações do estabelecimento e cardápio.
+
+---
+
+## Deploy
+
+A versão em produção está disponível em:
+
+**https://boinabrasaburguer.com.br/**
+
+A publicação utiliza infraestrutura da **Cloudflare**, com domínio personalizado e HTTPS.
+
+---
+
+## Status
+
+**Em produção.**
+
+O projeto pode receber novas atualizações de conteúdo, interface e otimização conforme as necessidades do estabelecimento.
+
+---
+
+## Autor
+
+**Joao Paulo Alves**  
+Desenvolvedor formado em **Análise e Desenvolvimento de Sistemas**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-MrJohnPaul89-181717?style=for-the-badge&logo=github)](https://github.com/MrJohnPaul89)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Joao%20Paulo%20Alves-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jpalves89/)
+[![Instagram](https://img.shields.io/badge/Instagram-devfs__mrjp89-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/devfs_mrjp89/)
+
+---
+
+<div align="center">
+
+**Boi na Brasa Burguer**  
+Desenvolvimento web aplicado a uma necessidade comercial real.
+
+</div>
